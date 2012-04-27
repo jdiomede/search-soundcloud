@@ -18,6 +18,8 @@
 		66F79F781546CDAD008FEA16 /* SoundCloudSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F79F751546CDAD008FEA16 /* SoundCloudSearchViewController.m */; };
 		66F79F791546CDAD008FEA16 /* SoundCloudTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F79F771546CDAD008FEA16 /* SoundCloudTableViewController.m */; };
 		66F79F821546CDFD008FEA16 /* TBXMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F79F811546CDFD008FEA16 /* TBXMLReader.m */; };
+		66F79FA5154AD8EB008FEA16 /* samplecode_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 66F79FA4154AD8EB008FEA16 /* samplecode_icon.png */; };
+		66F79FA8154AD8F6008FEA16 /* samplecode_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66F79FA7154AD8F6008FEA16 /* samplecode_icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,8 @@
 		66F79F841546CFCE008FEA16 /* DetailViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewProtocol.h; sourceTree = "<group>"; };
 		66F79F851546CFCE008FEA16 /* MasterViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewProtocol.h; sourceTree = "<group>"; };
 		66F79F8F1546DC8F008FEA16 /* Defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Defines.h; sourceTree = "<group>"; };
+		66F79FA4154AD8EB008FEA16 /* samplecode_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = samplecode_icon.png; sourceTree = "<group>"; };
+		66F79FA7154AD8F6008FEA16 /* samplecode_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "samplecode_icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 		66F79F401546CB74008FEA16 = {
 			isa = PBXGroup;
 			children = (
+				66F79FA7154AD8F6008FEA16 /* samplecode_icon@2x.png */,
+				66F79FA4154AD8EB008FEA16 /* samplecode_icon.png */,
 				66F79F551546CB74008FEA16 /* SampleCode */,
 				66F79F4E1546CB74008FEA16 /* Frameworks */,
 				66F79F4C1546CB74008FEA16 /* Products */,
@@ -212,6 +218,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				66F79F5A1546CB74008FEA16 /* InfoPlist.strings in Resources */,
+				66F79FA5154AD8EB008FEA16 /* samplecode_icon.png in Resources */,
+				66F79FA8154AD8F6008FEA16 /* samplecode_icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +344,7 @@
 				66F79F651546CB74008FEA16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

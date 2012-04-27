@@ -40,9 +40,9 @@
         self.detailViewController = [[[iPad_DetailViewController alloc] init] autorelease];
         [self.masterViewController setDelegate:self.detailViewController];
         [self.detailViewController setDelegate:self.masterViewController];
-        self.masterNavigationController = [[UINavigationController alloc]initWithRootViewController:self.masterViewController];
-        self.detailNavigationController = [[UINavigationController alloc] initWithRootViewController:self.detailViewController];
-        NSArray *viewControllers = [[NSArray alloc] initWithObjects:self.masterNavigationController, self.detailNavigationController, nil];
+        self.masterNavigationController = [[[UINavigationController alloc]initWithRootViewController:self.masterViewController] autorelease];
+        self.detailNavigationController = [[[UINavigationController alloc] initWithRootViewController:self.detailViewController] autorelease];
+        NSArray *viewControllers = [[[NSArray alloc] initWithObjects:self.masterNavigationController, self.detailNavigationController, nil] autorelease];
         self.splitViewController = [[[UISplitViewController alloc] init] autorelease];
         [self.splitViewController setViewControllers:viewControllers];
         [self.splitViewController setDelegate:self.detailViewController];

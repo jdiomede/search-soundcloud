@@ -142,7 +142,8 @@
             });
         }
     } else {
-        UIAlertView *emptyTerm = [[UIAlertView alloc] initWithTitle:@"Error!" message:@"Please enter a valid search term." delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+        [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:NO];
+        UIAlertView *emptyTerm = [[[UIAlertView alloc] initWithTitle:@"Error!" message:@"Please enter a valid search term." delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil] autorelease];
         [emptyTerm show];
     }
 }
@@ -152,7 +153,7 @@
     NSError *error = nil;
     NSString *parsed = [[[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding] autorelease];
     //NSLog(@"%@",parsed);
-    TBXML *tbxml = [[TBXML alloc] initWithXMLString:parsed error:&error];
+    TBXML *tbxml = [[[TBXML alloc] initWithXMLString:parsed error:&error] autorelease];
     TBXMLElement *root = tbxml.rootXMLElement;
     if (root) {
         TBXMLElement *body = [TBXML childElementNamed:@"body" parentElement:root];
