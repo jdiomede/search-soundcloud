@@ -1,0 +1,6 @@
+This demonstrates the use of a basic split view controller to allow the user to select a search result from SoundCloud and load the corresponding widget. 
+(1) All layout is done programmatically without the use of interface builder.
+(2) For simplicity, speed, and lightness the TBXML library was incorporated to parse results from http requests (https://github.com/71squared/TBXML). 
+(3) The user can potentially cancel any request that is taking too long, however if we have already received a response we will finish parsing the results.
+(4) As with most iPad-specific view controllers, the detail view will reposition its contents based on the current interface orientation. Both the master and detail views keep track of this information and update their contents accordingly. This becomes more important when displaying a splash view, however this has not been implemented here.
+(5) Lastly, current parsing of the SoundCloud search results only handles individual tracks, it will eventually be updated to handle playlists where there are multiple tracks per search result. In the case of a playlist, each track will then appear as a separate item in the table view as opposed to maintaining the playlist grouping.

@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66F79F501546CB74008FEA16 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F79F4F1546CB74008FEA16 /* UIKit.framework */; };
+		66F79F521546CB74008FEA16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F79F511546CB74008FEA16 /* Foundation.framework */; };
+		66F79F541546CB74008FEA16 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F79F531546CB74008FEA16 /* CoreGraphics.framework */; };
+		66F79F5A1546CB74008FEA16 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66F79F581546CB74008FEA16 /* InfoPlist.strings */; };
+		66F79F5C1546CB74008FEA16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F79F5B1546CB74008FEA16 /* main.m */; };
+		66F79F601546CB74008FEA16 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F79F5F1546CB74008FEA16 /* AppDelegate.m */; };
+		66F79F6D1546CC77008FEA16 /* iPad_MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F79F6C1546CC77008FEA16 /* iPad_MasterViewController.m */; };
+		66F79F701546CC8B008FEA16 /* iPad_DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F79F6F1546CC8B008FEA16 /* iPad_DetailViewController.m */; };
+		66F79F781546CDAD008FEA16 /* SoundCloudSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F79F751546CDAD008FEA16 /* SoundCloudSearchViewController.m */; };
+		66F79F791546CDAD008FEA16 /* SoundCloudTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F79F771546CDAD008FEA16 /* SoundCloudTableViewController.m */; };
+		66F79F821546CDFD008FEA16 /* TBXMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F79F811546CDFD008FEA16 /* TBXMLReader.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		66F79F4B1546CB74008FEA16 /* SampleCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66F79F4F1546CB74008FEA16 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		66F79F511546CB74008FEA16 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		66F79F531546CB74008FEA16 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		66F79F571546CB74008FEA16 /* SampleCode-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SampleCode-Info.plist"; sourceTree = "<group>"; };
+		66F79F591546CB74008FEA16 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		66F79F5B1546CB74008FEA16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		66F79F5D1546CB74008FEA16 /* SampleCode-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SampleCode-Prefix.pch"; sourceTree = "<group>"; };
+		66F79F5E1546CB74008FEA16 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		66F79F5F1546CB74008FEA16 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		66F79F6B1546CC77008FEA16 /* iPad_MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPad_MasterViewController.h; sourceTree = "<group>"; };
+		66F79F6C1546CC77008FEA16 /* iPad_MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iPad_MasterViewController.m; sourceTree = "<group>"; };
+		66F79F6E1546CC8B008FEA16 /* iPad_DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPad_DetailViewController.h; sourceTree = "<group>"; };
+		66F79F6F1546CC8B008FEA16 /* iPad_DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iPad_DetailViewController.m; sourceTree = "<group>"; };
+		66F79F741546CDAD008FEA16 /* SoundCloudSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundCloudSearchViewController.h; sourceTree = "<group>"; };
+		66F79F751546CDAD008FEA16 /* SoundCloudSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundCloudSearchViewController.m; sourceTree = "<group>"; };
+		66F79F761546CDAD008FEA16 /* SoundCloudTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundCloudTableViewController.h; sourceTree = "<group>"; };
+		66F79F771546CDAD008FEA16 /* SoundCloudTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundCloudTableViewController.m; sourceTree = "<group>"; };
+		66F79F801546CDF5008FEA16 /* TBXMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBXMLReader.h; sourceTree = "<group>"; };
+		66F79F811546CDFD008FEA16 /* TBXMLReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBXMLReader.m; sourceTree = "<group>"; };
+		66F79F841546CFCE008FEA16 /* DetailViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewProtocol.h; sourceTree = "<group>"; };
+		66F79F851546CFCE008FEA16 /* MasterViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewProtocol.h; sourceTree = "<group>"; };
+		66F79F8F1546DC8F008FEA16 /* Defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Defines.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66F79F481546CB74008FEA16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66F79F501546CB74008FEA16 /* UIKit.framework in Frameworks */,
+				66F79F521546CB74008FEA16 /* Foundation.framework in Frameworks */,
+				66F79F541546CB74008FEA16 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66F79F401546CB74008FEA16 = {
+			isa = PBXGroup;
+			children = (
+				66F79F551546CB74008FEA16 /* SampleCode */,
+				66F79F4E1546CB74008FEA16 /* Frameworks */,
+				66F79F4C1546CB74008FEA16 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66F79F4C1546CB74008FEA16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66F79F4B1546CB74008FEA16 /* SampleCode.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66F79F4E1546CB74008FEA16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66F79F4F1546CB74008FEA16 /* UIKit.framework */,
+				66F79F511546CB74008FEA16 /* Foundation.framework */,
+				66F79F531546CB74008FEA16 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		66F79F551546CB74008FEA16 /* SampleCode */ = {
+			isa = PBXGroup;
+			children = (
+				66F79F8F1546DC8F008FEA16 /* Defines.h */,
+				66F79F801546CDF5008FEA16 /* TBXMLReader.h */,
+				66F79F811546CDFD008FEA16 /* TBXMLReader.m */,
+				66F79F5E1546CB74008FEA16 /* AppDelegate.h */,
+				66F79F5F1546CB74008FEA16 /* AppDelegate.m */,
+				66F79F861546D0D4008FEA16 /* Images */,
+				66F79F711546CCE3008FEA16 /* MediaPickers */,
+				66F79F6A1546CC5E008FEA16 /* iPad */,
+				66F79F561546CB74008FEA16 /* Supporting Files */,
+			);
+			path = SampleCode;
+			sourceTree = "<group>";
+		};
+		66F79F561546CB74008FEA16 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				66F79F571546CB74008FEA16 /* SampleCode-Info.plist */,
+				66F79F581546CB74008FEA16 /* InfoPlist.strings */,
+				66F79F5B1546CB74008FEA16 /* main.m */,
+				66F79F5D1546CB74008FEA16 /* SampleCode-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		66F79F6A1546CC5E008FEA16 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				66F79F831546CF54008FEA16 /* Protocol */,
+				66F79F6B1546CC77008FEA16 /* iPad_MasterViewController.h */,
+				66F79F6C1546CC77008FEA16 /* iPad_MasterViewController.m */,
+				66F79F6E1546CC8B008FEA16 /* iPad_DetailViewController.h */,
+				66F79F6F1546CC8B008FEA16 /* iPad_DetailViewController.m */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		66F79F711546CCE3008FEA16 /* MediaPickers */ = {
+			isa = PBXGroup;
+			children = (
+				66F79F731546CCFF008FEA16 /* SoundCloud */,
+			);
+			name = MediaPickers;
+			sourceTree = "<group>";
+		};
+		66F79F731546CCFF008FEA16 /* SoundCloud */ = {
+			isa = PBXGroup;
+			children = (
+				66F79F741546CDAD008FEA16 /* SoundCloudSearchViewController.h */,
+				66F79F751546CDAD008FEA16 /* SoundCloudSearchViewController.m */,
+				66F79F761546CDAD008FEA16 /* SoundCloudTableViewController.h */,
+				66F79F771546CDAD008FEA16 /* SoundCloudTableViewController.m */,
+			);
+			name = SoundCloud;
+			sourceTree = "<group>";
+		};
+		66F79F831546CF54008FEA16 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				66F79F841546CFCE008FEA16 /* DetailViewProtocol.h */,
+				66F79F851546CFCE008FEA16 /* MasterViewProtocol.h */,
+			);
+			name = Protocol;
+			sourceTree = "<group>";
+		};
+		66F79F861546D0D4008FEA16 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66F79F4A1546CB74008FEA16 /* SampleCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66F79F631546CB74008FEA16 /* Build configuration list for PBXNativeTarget "SampleCode" */;
+			buildPhases = (
+				66F79F471546CB74008FEA16 /* Sources */,
+				66F79F481546CB74008FEA16 /* Frameworks */,
+				66F79F491546CB74008FEA16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleCode;
+			productName = SampleCode;
+			productReference = 66F79F4B1546CB74008FEA16 /* SampleCode.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66F79F421546CB74008FEA16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 66F79F451546CB74008FEA16 /* Build configuration list for PBXProject "SampleCode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 66F79F401546CB74008FEA16;
+			productRefGroup = 66F79F4C1546CB74008FEA16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66F79F4A1546CB74008FEA16 /* SampleCode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66F79F491546CB74008FEA16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66F79F5A1546CB74008FEA16 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66F79F471546CB74008FEA16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66F79F5C1546CB74008FEA16 /* main.m in Sources */,
+				66F79F601546CB74008FEA16 /* AppDelegate.m in Sources */,
+				66F79F6D1546CC77008FEA16 /* iPad_MasterViewController.m in Sources */,
+				66F79F701546CC8B008FEA16 /* iPad_DetailViewController.m in Sources */,
+				66F79F781546CDAD008FEA16 /* SoundCloudSearchViewController.m in Sources */,
+				66F79F791546CDAD008FEA16 /* SoundCloudTableViewController.m in Sources */,
+				66F79F821546CDFD008FEA16 /* TBXMLReader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		66F79F581546CB74008FEA16 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66F79F591546CB74008FEA16 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66F79F611546CB74008FEA16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		66F79F621546CB74008FEA16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66F79F641546CB74008FEA16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleCode/SampleCode-Prefix.pch";
+				INFOPLIST_FILE = "SampleCode/SampleCode-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		66F79F651546CB74008FEA16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleCode/SampleCode-Prefix.pch";
+				INFOPLIST_FILE = "SampleCode/SampleCode-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66F79F451546CB74008FEA16 /* Build configuration list for PBXProject "SampleCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66F79F611546CB74008FEA16 /* Debug */,
+				66F79F621546CB74008FEA16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66F79F631546CB74008FEA16 /* Build configuration list for PBXNativeTarget "SampleCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66F79F641546CB74008FEA16 /* Debug */,
+				66F79F651546CB74008FEA16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66F79F421546CB74008FEA16 /* Project object */;
+}
